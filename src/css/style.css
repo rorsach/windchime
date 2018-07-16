@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+    font-family: Times New Roman, Georgia, serif;
+}
+
+.problem-bank {
+    display: flex;
+    border: 3px solid #000;
+    margin-bottom: 1.0rem;
+}
+
+.problem-cell {
+    border: 1px solid #333;
+    padding: 6px;
+}
+
+.problem-digit {
+    width: 100%;
+    height: 1.6rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 1.25rem;
+    border-top: 0;
+    border-bottom: 0;
+    
+}
+
+.problem-label {
+    width: 100%;
+    height: 1.6rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.problem-column {
+    display: flex;
+    /* max-width: 30px; */
+    flex-direction: column;
+}
+
+.problem-column ~ .problem-column {
+    flex: 1;
+}
+
