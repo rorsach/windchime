@@ -8,11 +8,11 @@ import '../css/style.css'
 var numbers = new NumberFactory(2, 7, 16).generateNumbers()
 
 
-ReactDOM.render(
-    React.createElement(
-        'div',
-        {className: 'problem-root'},
-        React.createElement(ProblemPage, {numbers: numbers}, null)
-    ),
-    document.getElementById('root')
-)
+// ReactDOM.render(
+//     React.createElement(
+//         'div',
+//         {className: 'problem-root'},
+//         React.createElement(ProblemPage, {numbers: numbers}, null)
+//     ),
+//     document.getElementById('root')
+// )
