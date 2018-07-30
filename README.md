@@ -8,3 +8,4 @@
   - [ ] tone duration
   - [ ] Attack, Release, Delay, Sustain
 - [ ] Visualizer for tones
+- [ ] System for users to publish, vote on other users chimes. (?)
